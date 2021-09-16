@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/css/all.min.css" />
+    <link rel="stylesheet" href="font/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="google/goofont.css" />
+    <title>Event</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="leftside">
+        <div class="logo">
+          <a href="#">Event</a>
+        </div>
+      </div>
+      <div class="rightside">
+        <div class="links" id="links">
+          <a href="#">HOME</a>
+          <a href="#register">REGISTER</a>
+          <a href="#agenda">AGENDA</a>
+          <a href="#speakers">SPEAKERS</a>
+          <div class="contact">
+            <a href="#contact">CONTACT</a>
+          </div>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 20px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </div>
+    <!-- COUNTDOWN -->
+    <div class="countdown home">
+      <div class="overlay"></div>
+      <div class="countdown_content">
+        <div class="count_timer">
+          <span class="time">
+            <span id="days"></span><br />
+            <span class="caption">Days</span>
+          </span>
+          <span class="time">
+            <span id="hours"></span><br />
+            <span class="caption">Hours</span>
+          </span>
+          <span class="time">
+            <span id="minutes"></span><br />
+            <span class="caption">Minutes</span>
+          </span>
+          <span class="time">
+            <span id="seconds"></span><br />
+            <span class="caption">Seconds</span>
+          </span>
+        </div>
+        <div class="count_text">
+          <h1 class="eventTitle">Event Landing Page</h1>
+          <p>
+            Join us for the event on the 20th of July at 8:00 AM in Newyork -
+            USA
+          </p>
+          <a href="#" class="btn">REGISTER</a>
+        </div>
+      </div>
+      <div class="wavy"></div>
+    </div>
+    <!-- REGISTER -->
+    <div class="register" id="register">
+      <div class="row">
+        <div class="col">
+          <h1><span class="purp">Reserve</span> Your Seat Today</h1>
+          <p>
+            You are just a few clicks away from registering for the Online
+            Marketing event of the year. Just fill in the form to register and
+            we'll send you the invite in less than 24h.
+          </p>
+          <ul id="reserve">
+            <li>
+              <span class="bold">Meet professionals</span> which are open to any
+              discussions
+            </li>
+            <li>
+              <span class="bold">Gather knowledge</span> from industry experts
+              around the world
+            </li>
+            <li>
+              <span class="bold">Easy registration</span> by filling and
+              submitting the next form
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="form">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Occupation" />
+            <input type="email" placeholder="Email" />
+            <div class="agree">
+              <div class="checkbox">
+                <input type="checkbox" id="checkbox" />
+              </div>
+              <div class="agree-links">
+                I agree with the website's
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms & Conditions</a>
+              </div>
+            </div>
+            <button class="btn">REGISTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="register2">
+      <div class="row">
+        <div class="col">
+          <img src="002x.jpg" alt="" />
+        </div>
+        <div class="col">
+          <h2><span>You Are</span> Invited To Event</h2>
+          <p>
+            This year's Event is all about learning from the speaker's
+            experience, sharing enthusiasm with like minded professionals and
+            networking of course. Get updated on the latest industry.
+          </p>
+          <p>
+            We'll focus on the necessary steps for launching a successful online
+            business but we'll also touch subjects like leadership and marketing
+            so don't miss out and <a href="">Register Now</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- AGENDA -->
+    <div class="agenda" id="agenda">
+      <div class="title">
+        <h1><span class="purp">Event</span> Agenda</h1>
+        <p>
+          Highlights from this year's online marketing event are Kathy Blake's
+          artificial intelligence keynote and Mark Tucker's award winning
+          workshop
+        </p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="content">
+            <span class="time">8:00am</span>
+            <h3>Guest reception, morning coffee</h3>
+            <p>
+              What better way to start the day and to enjoy an event than eating
+              delicious cookies and drinking italian coffee?
+            </p>
+          </div>
+          <div class="content">
+            <span class="time">9:00am</span>
+            <h3>How to jump start your great online project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              itaque similique velit incidunt reprehenderit iure fugit adipisci
+              pariatur?
+            </p>
+          </div>
+          <div class="content">
+            <span class="time">10:00am</span>
+            <h3>The perfect team for developing apps</h3>
+            <p>
+              What better way to start the day and to enjoy an event than eating
+              delicious cookies and drinking italian coffee?
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="content">
+            <span class="time">11:30am</span>
+            <h3>Guest reception, morning coffee</h3>
+            <p>
+              What better way to start the day and to enjoy an event than eating
+              delicious cookies and drinking italian coffee?
+            </p>
+          </div>
+          <div class="content">
+            <span class="time">12:30am</span>
+            <h3>Lunch, coffee and networking for everyone</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              itaque similique velit incidunt reprehenderit iure fugit adipisci
+              pariatur?
+            </p>
+          </div>
+          <div class="content">
+            <span class="time">13:30am</span>
+            <h3>Guest reception, morning coffee</h3>
+            <p>
+              What better way to start the day and to enjoy an event than eating
+              delicious cookies and drinking italian coffee?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SPEAKERS -->
+    <div class="speakers" id="speakers">
+      <div class="title">
+        <h1><span class="purp">Event</span> Speakers</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam possimus
+          praesentium at cum repellat molestias alias rem reprehenderit, unde
+          perspiciatis?
+        </p>
+        <div class="row">
+          <div class="col-4">
+            <img src="200black.jpg" id="" />
+            <div class="caption">
+              <h3>John Doe</h3>
+              <p>Project Manger - CREB</p>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <img src="200blonde.jpg" id="" />
+            <div class="caption">
+              <h3>Cici Kate</h3>
+              <p>Project Manger - CREB</p>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <img src="200white.jpg" id="" />
+            <div class="caption">
+              <h3>Cici Kate</h3>
+              <p>Project Manger - CREB</p>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <img src="200brown.jpg" id="" />
+            <div class="caption">
+              <h3>John Doe</h3>
+              <p>Project Manger - CREB</p>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQS -->
+    <div class="agenda" id="faqs">
+      <div class="title">
+        <h1><span class="purp">Frequent </span> Questions</h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="content">
+            <h3>Whom is this event intended for?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">1</span>
+          </div>
+          <div class="content">
+            <h3>What do I gain from this event?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">2</span>
+          </div>
+          <div class="content">
+            <h3>Can I invite my friends?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">3</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="content">
+            <h3>Is there free transportation?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">4</span>
+          </div>
+          <div class="content">
+            <h3>How do I register for the event</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">5</span>
+          </div>
+          <div class="content">
+            <h3>Guest reception, morning coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              dolorem alias recusandae nam molestiae consequatur.
+            </p>
+            <span class="num">6</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="register" id="contact">
+      <div class="row">
+        <div class="col">
+          <h1>Contact Details</h1>
+          <p>
+            For registration questions please don't hesitate to get in touch
+            using the contact details below
+          </p>
+          <h2>Main Office Location</h2>
+          <p>
+            <i class="fas fa-location-arrow"></i> 22 Innovative, San Francisco,
+            CA 94043, US
+          </p>
+          <p><i class="fas fa-mobile"></i> + 99999999</p>
+          <p><i class="fas fa-mobile"></i> + 99999999</p>
+          <p><i class="fas fa-envelope"></i> example@gmail.com</p>
+          <p><i class="fas fa-globe"></i> www.mysite.com</p>
+        </div>
+        <div class="col">
+          <div class="form">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Occupation" />
+            <textarea placeholder="Message"></textarea>
+            <div class="agree">
+              <div class="checkbox">
+                <input type="checkbox" id="checkbox" />
+              </div>
+              <div class="agree-links">
+                I agree with the website's
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms & Conditions</a>
+              </div>
+            </div>
+            <button class="btn">REGISTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="wavy_x"></div>
+      <div class="row">
+        <div class="col_footer">
+          <h3>About Event</h3>
+          <p>
+            Event is a CSS, Javascript & HTML template which works great for
+            event and webinar websites. It is a rewriting of a bootstrap
+            template with additional customization.
+          </p>
+        </div>
+        <div class="col_footer">
+          <h3>Links</h3>
+          <p>
+            Important:
+            <a href="#">Privacy Policy, <a href="">Terms & Conditions</a></a>
+          </p>
+          <p>Helpful: <a href="#">Calendar</a>, <a href="#">To-do List</a></p>
+          <p>
+            Navbar: <a href="#">Register,</a> <a href="#">Agenda</a>,
+            <a href="#">Article Details</a>
+          </p>
+        </div>
+        <div class="col_footer">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <p>
+            We would love to hear from you <br />
+            <span>contact@website.com</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer_text">Designed: Ademie</div>
+      <!-- back to top -->
+      <a href="#"><i class="fab fa-arrow-up"></i></a>
+    </div>
+    <script src="script.js"></script>
+    <!-- NAVBAR SCRIPT -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("links");
+        if (x.className === "links") {
+          x.className += " responsive";
+        } else {
+          x.className = "links";
+        }
+      }
+    </script>
+  </body>
+</html>
